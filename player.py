@@ -25,7 +25,7 @@ class Player(pygame.sprite.Sprite):
             self.rect.move_ip(-self.spd.SPEED_PLAYER,0)
         if pressed_keys[K_RIGHT]:
             self.rect.move_ip(self.spd.SPEED_PLAYER,0)
-        
+
         if self.rect.top <= 0:
             self.rect.top = 0
         if self.rect.bottom >= self.main.screenHeight:

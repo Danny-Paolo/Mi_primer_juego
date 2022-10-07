@@ -87,7 +87,6 @@ class PYGAME_INIT():
             elif event.type == self.ADDENEMIE:
                 self.create_Enemie()
 
-
             elif event.type == self.ADDCLOUD:
                 self.create_Clouds()
 
@@ -105,4 +104,3 @@ class PYGAME_INIT():
 if __name__ == "__main__" :
     init = PYGAME_INIT()
     init.main()
-    # print(init.ene.rect)
